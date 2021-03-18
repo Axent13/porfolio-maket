@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  max-width: 67.5rem;
+}
+
+.header {
+  border-bottom: 0.15rem solid #828282;
+  min-height: 5.9rem;
+  padding-bottom: 0.4rem;
+}
+
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  min-height: inherit;
+}
+
+.header__link {
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #828282;
+}
+
+.header__link_active {
+  color: black;
+}
+
+.header__link:hover {
+  color: #3f3f3f;
+}
