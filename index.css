@@ -104,3 +104,27 @@ html {
   max-width: 100%;
   height: auto;
 }
+
+.about-me {
+  margin: 15.2rem auto 0;
+  max-width: 34rem;
+}
+
+.about-me__section-name {
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: bold;
+  font-size: 2.45rem;
+  text-align: center;
+}
+
+.about-me__content-container {
+  margin-top: 1.6rem;
+}
+
+.about-me__content {
+  margin-bottom: 3.1rem;
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  text-align: center;
+}
