@@ -198,7 +198,7 @@ html {
 }
 
 .portfolio {
-  margin: 15.9rem auto 0;
+  margin: 15.9rem auto 7.2rem;
 }
 
 .portfolio__section-name {
@@ -235,4 +235,41 @@ html {
 
 .portfolio__image_braun {
   margin-right: 1rem;
+}
+
+.contacts {
+  margin: 14.9rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__section-name {
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: bold;
+  font-size: 2.45rem;
+  text-align: center;
+}
+
+.contacts__text {
+  margin-top: 1.8rem;
+  margin-bottom: 2.22rem;
+  padding-left: 0.5rem;
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+}
+
+.contacts__send-message {
+  margin-left: 0.3rem;
+  padding: 0.8rem 2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  background-color: black;
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white;
 }
