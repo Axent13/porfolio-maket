@@ -110,8 +110,7 @@ html {
   max-width: 34rem;
 }
 
-.about-me__section-name,
-.skills__section-name {
+.about-me__section-name {
   font-family: 'Gilroy', 'Arial', serif;
   font-weight: bold;
   font-size: 2.45rem;
@@ -132,6 +131,13 @@ html {
 
 .skills {
   margin: 14rem auto 0;
+}
+
+.skills__section-name {
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: bold;
+  font-size: 2.45rem;
+  text-align: center;
 }
 
 .skills__content {
@@ -189,4 +195,44 @@ html {
 
 .skill__name_figma {
   margin-top: 0;
+}
+
+.portfolio {
+  margin: 15.9rem auto 0;
+}
+
+.portfolio__section-name {
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: bold;
+  font-size: 2.45rem;
+  text-align: center;
+}
+
+.portfolio__items {
+  margin-left: 0.5rem;
+  list-style: none;
+}
+
+.portfolio__item {
+  margin-top: 4rem;
+  margin-bottom: 7.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio__item-link {
+  margin-top: 3rem;
+  font-family: 'Gilroy', 'Arial', serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.portfolio__item-link:hover {
+  color: #828282;
+}
+
+.portfolio__image_braun {
+  margin-right: 1rem;
 }
